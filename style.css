@@ -1,0 +1,77 @@
+@import 'https://fonts.google.com/specimen/Roboto,wght@0,100..900;1,100..900&display=swap';
+
+:root {
+
+
+    --cl-1:  hsl(234, 29%, 20%);
+    --cl-2:  hsl(235, 18%, 26%);
+    --cl-3:  hsl(231, 7%, 60%);
+    --cl-4:  hsl(0, 0%, 100%);
+
+
+    --fs-xlg:2em ;
+    --fs-lg:1.5em ;
+    --fs-md: 1em;
+    --fs-sm:0.5em ;
+    --fs-xm:0.25em;
+
+
+
+    --fw-lg:700;
+    --fw-md:400;
+}
+
+*,
+*::before,
+::after {
+    margin: o;
+    padding: 0;
+
+}
+
+.Head {
+    font-weight: var(--fw-lg);
+}
+
+body {
+    font-family: ;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    margin: 100px;
+    
+    
+}
+
+.inner-container {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    width: 375px;
+    contain: content;
+    /* height: 700px; */
+}
+
+.upper-img {
+    margin-bottom: 170px;
+}
+
+.text-area {
+    margin-top: -120px;
+}
+.feat-area {
+    display: inline;
+    justify-content: space-between;
+}
+
+.info-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
